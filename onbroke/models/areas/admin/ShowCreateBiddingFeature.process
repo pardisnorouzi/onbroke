@@ -1,0 +1,106 @@
+Process _14a94VuVEe2nXJXMw4vrvg {
+  modelName "ShowCreateBiddingFeature"
+  description "ShowCreateBiddingFeature"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _5m2XcVuVEe2nXJXMw4vrvg at 18,17 size 210,565 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _5m2-gVuVEe2nXJXMw4vrvg at 328,37 size 100,65 {
+  	-ControlFlow-> _5m6o41uVEe2nXJXMw4vrvg  decorate "" at (0,0) {
+  		id _5m73EluVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+  
+  Branch _5m2-h1uVEe2nXJXMw4vrvg at 318,217 size 120,50 {
+  	name "Submit"
+  	PrimitiveOutputPort _5m2-i1uVEe2nXJXMw4vrvg at 5,27 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  		-PrimitiveDirectDataFlow-> __kLRgVuVEe2nXJXMw4vrvg via (308,253) (308,412) decorate "" at (0,0) {
+  			id _ArEBEVuWEe2nXJXMw4vrvg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _7f91N1uVEe2nXJXMw4vrvg  decorate "" at (0,0) {
+  		id _8NMuoVuVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _5m6o41uVEe2nXJXMw4vrvg at 318,137 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_OXlYQVuSEe2nXJXMw4vrvg"
+  	name "FeatureForm"
+  	label "FeatureForm"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _5m7P-FuVEe2nXJXMw4vrvg   {
+  		id _5m7P9luVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _5m2-h1uVEe2nXJXMw4vrvg   {
+  		id _5m7P_luVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _5m7QBFuVEe2nXJXMw4vrvg at 328,517 size 100,65 {
+  	branchName "success"
+  }
+  
+  EndSIB _5m73BFuVEe2nXJXMw4vrvg at 598,137 size 100,65 {
+  	branchName "cancel"
+  }
+  
+  Branch _5m7P-FuVEe2nXJXMw4vrvg at 459,157 size 120,25 {
+  	name "Cancel"
+  	-ControlFlow-> _5m73BFuVEe2nXJXMw4vrvg  decorate "" at (0,0) {
+  		id _5m73DluVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+  
+  Branch _7f8nEVuVEe2nXJXMw4vrvg at 318,450 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _7f9OIVuVEe2nXJXMw4vrvg at 5,27 size 90,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList false
+  		name "created"
+  	}
+  	-ControlFlow-> _5m7QBFuVEe2nXJXMw4vrvg  decorate "" at (0,0) {
+  		id _8-clYVuVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+  
+  CreateSIB _7f91N1uVEe2nXJXMw4vrvg at 318,300 size 120,126 {
+  	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  	label "Create Feature"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _7f91P1uVEe2nXJXMw4vrvg at 5,67 size 110,18 {
+  		value true
+  		name "isTemplateForBidding"
+  	}
+  	
+  	TextInputStatic _7f91RVuVEe2nXJXMw4vrvg at 5,85 size 110,18 {
+  		value "Feature attrTmpl"
+  		name "internalName"
+  	}
+  	
+  	PrimitiveInputPort __kLRgVuVEe2nXJXMw4vrvg at 5,103 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  	}
+  	-BranchConnector-> _7f8nEVuVEe2nXJXMw4vrvg   {
+  		id _7f91NVuVEe2nXJXMw4vrvg
+  		concurrent true
+  	}
+  }
+}
