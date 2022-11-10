@@ -14,7 +14,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   		name "featuresForOffer"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _DPHhQVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _JQrIkWETEe2Fx80Lw9BAUQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _GLhA8VLaEe2djpkPxa2Z3Q
   		}
   	}
@@ -27,7 +27,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   		name "featuresForBidding"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _DPKkkVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _JQwoIWETEe2Fx80Lw9BAUQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _HybUYVLaEe2djpkPxa2Z3Q
   		}
   	}
@@ -256,7 +256,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		Tab _2Kxh1lLZEe2djpkPxa2Z3Q at 240,30 size 220,450 {
+  		Tab _2Kxh1lLZEe2djpkPxa2Z3Q at 240,30 size 220,568 {
   			default false
   			label "Feature Templates"
   			generalStyle GeneralStyling _2KyIV1LZEe2djpkPxa2Z3Q {
@@ -271,7 +271,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   			MoveRight _2KyIXFLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
   			}
   			
-  			Row _2KyIX1LZEe2djpkPxa2Z3Q at 10,30 size 200,390 {
+  			Row _2KyIX1LZEe2djpkPxa2Z3Q at 10,30 size 200,508 {
   				generalStyle GeneralStyling _2KyIgVLZEe2djpkPxa2Z3Q {
   						tallness Fitting
   						marginBottom Single
@@ -284,7 +284,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   				MoveDown _2KyIhlLZEe2djpkPxa2Z3Q at 2,10 size 14,7 {
   				}
   				
-  				Col _2KyIiVLZEe2djpkPxa2Z3Q at 10,30 size 170,340 {
+  				Col _2KyIiVLZEe2djpkPxa2Z3Q at 10,30 size 170,458 {
   					wideness Full
   					layout Layout _2KyIpFLZEe2djpkPxa2Z3Q {
   							size Default
@@ -303,7 +303,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   					MoveRight _2KyIqVLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
   					}
   					
-  					GUISIB _DPD291LaEe2djpkPxa2Z3Q at 10,30 size 150,280 {
+  					GUISIB _JQilsWETEe2Fx80Lw9BAUQ at 10,30 size 150,398 {
   						libraryComponentUID "_S6RoAVLZEe2djpkPxa2Z3Q"
   						label "AdminTemplatesTab"
   						generalStyle GeneralStyling _DPXY4FLaEe2djpkPxa2Z3Q {
@@ -312,38 +312,57 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   								attributes [  ]
   								marginTop None
   							}
-  						ComplexInputPort _DPHhQVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  						ComplexInputPort _JQrIkWETEe2Fx80Lw9BAUQ at 5,67 size 90,18 {
   							libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   							isList true
   							name "featuresForOffer"
   						}
   						
-  						ComplexInputPort _DPKkkVLaEe2djpkPxa2Z3Q at 5,85 size 90,18 {
+  						ComplexInputPort _JQwoIWETEe2Fx80Lw9BAUQ at 5,85 size 90,18 {
   							libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   							isList true
   							name "featuresForBidding"
   						}
   						
-  						Branch _DPNn4VLaEe2djpkPxa2Z3Q at 5,108 size 100,25 {
+  						Branch _JQ1goWETEe2Fx80Lw9BAUQ at 5,108 size 100,50 {
   							name "Edit feature"
+  							ComplexOutputPort _JQ4j8WETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
+  								libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  								name "feature"
+  								isList false
+  							}
   						}
   						
-  						Branch _DPPdEVLaEe2djpkPxa2Z3Q at 5,151 size 100,25 {
+  						Branch _JQ81YWETEe2Fx80Lw9BAUQ at 5,176 size 100,50 {
   							name "Delete feature"
+  							ComplexOutputPort _JQ_4sWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
+  								libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  								name "feature"
+  								isList false
+  							}
   						}
   						
-  						Branch _DPR5UVLaEe2djpkPxa2Z3Q at 5,194 size 100,25 {
+  						Branch _JRExMWETEe2Fx80Lw9BAUQ at 5,244 size 100,50 {
+  							name "Details"
+  							ComplexOutputPort _JRHNcWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
+  								libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  								name "feature"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _JRMF8WETEe2Fx80Lw9BAUQ at 5,312 size 100,25 {
   							name "Create offer feature"
   						}
   						
-  						Branch _DPTugVLaEe2djpkPxa2Z3Q at 5,237 size 100,25 {
+  						Branch _JRPJQWETEe2Fx80Lw9BAUQ at 5,355 size 100,25 {
   							name "Create bidding feature"
   						}
   						
-  						MoveUp _DPWKwVLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  						MoveUp _JRSMkWETEe2Fx80Lw9BAUQ at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _DPWx0VLaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  						MoveDown _JRSzoWETEe2Fx80Lw9BAUQ at 2,10 size 14,7 {
   						}
   					}
   				}

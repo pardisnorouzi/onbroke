@@ -14,7 +14,7 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   		name "featuresForOffer"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _LqHXoVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _HqfN4WETEe2Fx80Lw9BAUQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _kMQGIVLZEe2djpkPxa2Z3Q
   		}
   	}
@@ -27,13 +27,13 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   		name "featuresForBidding"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _MOl9sVLaEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _Ij47EWETEe2Fx80Lw9BAUQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _vdGIQVLZEe2djpkPxa2Z3Q
   		}
   	}
   }
   
-  Template _S6TdMVLZEe2djpkPxa2Z3Q at 300,10 size 290,1002 {
+  Template _S6TdMVLZEe2djpkPxa2Z3Q at 300,10 size 290,1138 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _S6UEQFLZEe2djpkPxa2Z3Q {
@@ -42,7 +42,7 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   			attributes [  ]
   			marginTop None
   		}
-  	Panel _bWN5kVLZEe2djpkPxa2Z3Q at 10,30 size 270,466 {
+  	Panel _bWN5kVLZEe2djpkPxa2Z3Q at 10,30 size 270,534 {
   		collapsable true
   		defaultOpen "false"
   		heading StaticContent _bWOgtFLZEe2djpkPxa2Z3Q {
@@ -142,7 +142,7 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		GUISIB _Lp248VLaEe2djpkPxa2Z3Q at 10,210 size 150,226 {
+  		GUISIB _HqX5IWETEe2Fx80Lw9BAUQ at 10,210 size 150,294 {
   			libraryComponentUID "_a-hbAVLIEe2djpkPxa2Z3Q"
   			label "FeatureTemplateTable"
   			generalStyle GeneralStyling _bWPu8lLZEe2djpkPxa2Z3Q {
@@ -151,39 +151,48 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   					attributes [  ]
   					marginTop None
   				}
-  			ComplexInputPort _LqHXoVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  			ComplexInputPort _HqfN4WETEe2Fx80Lw9BAUQ at 5,67 size 90,18 {
   				libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   				isList true
   				name "features"
   			}
   			
-  			Branch _LqRIoVLaEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  			Branch _HqlUgWETEe2Fx80Lw9BAUQ at 5,90 size 100,50 {
   				name "Edit feature"
-  				ComplexOutputPort _LqVaEVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _Hqpl8WETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
   					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   					name "feature"
   					isList false
   				}
   			}
   			
-  			Branch _LqfLEVLaEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  			Branch _HqwToWETEe2Fx80Lw9BAUQ at 5,158 size 100,50 {
   				name "Delete feature"
-  				ComplexOutputPort _LqkqoVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _Hqz-AWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
   					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   					name "feature"
   					isList false
   				}
   			}
   			
-  			MoveUp _LquboVLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			Branch _Hq6EoWETEe2Fx80Lw9BAUQ at 5,226 size 100,50 {
+  				name "Details"
+  				ComplexOutputPort _Hq9vAWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
   			}
   			
-  			MoveDown _LqvCsVLaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			MoveUp _HrEcsWETEe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _HrFDwWETEe2Fx80Lw9BAUQ at 2,10 size 14,7 {
   			}
   		}
   	}
   	
-  	Panel _mSgA8VLZEe2djpkPxa2Z3Q at 10,506 size 270,466 {
+  	Panel _mSgA8VLZEe2djpkPxa2Z3Q at 10,574 size 270,534 {
   		collapsable true
   		defaultOpen "false"
   		heading StaticContent _mSgoJ1LZEe2djpkPxa2Z3Q {
@@ -283,7 +292,7 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		GUISIB _MOVfAVLaEe2djpkPxa2Z3Q at 10,210 size 150,226 {
+  		GUISIB _IjujAWETEe2Fx80Lw9BAUQ at 10,210 size 150,294 {
   			libraryComponentUID "_a-hbAVLIEe2djpkPxa2Z3Q"
   			label "FeatureTemplateTable"
   			generalStyle GeneralStyling _mSh2TVLZEe2djpkPxa2Z3Q {
@@ -292,34 +301,43 @@ GUI _S6RoAVLZEe2djpkPxa2Z3Q {
   					attributes [  ]
   					marginTop None
   				}
-  			ComplexInputPort _MOl9sVLaEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  			ComplexInputPort _Ij47EWETEe2Fx80Lw9BAUQ at 5,67 size 90,18 {
   				libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   				isList true
   				name "features"
   			}
   			
-  			Branch _MOvusVLaEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  			Branch _Ij_BsWETEe2Fx80Lw9BAUQ at 5,90 size 100,50 {
   				name "Edit feature"
-  				ComplexOutputPort _MO1OQVLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _IkCFAWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
   					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   					name "feature"
   					isList false
   				}
   			}
   			
-  			Branch _MO-_QVLaEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  			Branch _IkILoWETEe2Fx80Lw9BAUQ at 5,158 size 100,50 {
   				name "Delete feature"
-  				ComplexOutputPort _MPEe0VLaEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _IkL2AWETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
   					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   					name "feature"
   					isList false
   				}
   			}
   			
-  			MoveUp _MPO24VLaEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			Branch _IkR8oWETEe2Fx80Lw9BAUQ at 5,226 size 100,50 {
+  				name "Details"
+  				ComplexOutputPort _IkU_8WETEe2Fx80Lw9BAUQ at 5,27 size 90,18 {
+  					libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  					name "feature"
+  					isList false
+  				}
   			}
   			
-  			MoveDown _MPO241LaEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			MoveUp _IkbtoWETEe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _Ikbto2ETEe2Fx80Lw9BAUQ at 2,10 size 14,7 {
   			}
   		}
   	}

@@ -111,6 +111,11 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		id _5oQ2kVLrEe2djpkPxa2Z3Q
   		concurrent true
   	}
+  	
+  	-BranchConnector-> _K2kvYWETEe2Fx80Lw9BAUQ   {
+  		id _K2lWcWETEe2Fx80Lw9BAUQ
+  		concurrent true
+  	}
   }
   
   Branch _jx7GIVLPEe2djpkPxa2Z3Q at 309,620 size 120,25 {
@@ -885,6 +890,49 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	name "cancel"
   	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (1460,844) (1461,480) decorate "" at (0,0) {
   		id _diQ-EWBFEe2RjrkbQARhdg
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _QRRS8WESEe2Fx80Lw9BAUQ at 160,686 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_ptsfcWEREe2Fx80Lw9BAUQ"
+  	name "FeatureDetails"
+  	label "FeatureDetails"
+  	ignoredBranch [  ]
+  	ComplexInputPort _QRjm0WESEe2Fx80Lw9BAUQ at 5,67 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList false
+  		name "feature"
+  	}
+  	-BranchConnector-> _QRv0EWESEe2Fx80Lw9BAUQ   {
+  		id _QRxCMWESEe2Fx80Lw9BAUQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _QRv0EWESEe2Fx80Lw9BAUQ at 160,820 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (150,832) (150,481) decorate "" at (0,0) {
+  		id _R-zLwWESEe2Fx80Lw9BAUQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _K2kvYWETEe2Fx80Lw9BAUQ at 170,608 size 120,50 {
+  	name "Details"
+  	ComplexOutputPort _K2srMWETEe2Fx80Lw9BAUQ at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList false
+  		name "feature"
+  		-ComplexDirectDataFlow-> _QRjm0WESEe2Fx80Lw9BAUQ via (150,644) (150,762) decorate "" at (0,0) {
+  			id _N4-JYWETEe2Fx80Lw9BAUQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _QRRS8WESEe2Fx80Lw9BAUQ  decorate "" at (0,0) {
+  		id _MwL8YWETEe2Fx80Lw9BAUQ
   		concurrent true
   	}
   }

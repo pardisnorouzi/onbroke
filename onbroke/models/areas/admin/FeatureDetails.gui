@@ -1,0 +1,246 @@
+GUI _ptsfcWEREe2Fx80Lw9BAUQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "FeatureDetails"
+  DataContext _ptxX8WEREe2Fx80Lw9BAUQ at 10,10 size 180,125 {
+  	dfViewWorkaround true
+  	ComplexVariable _qWXB8WEREe2Fx80Lw9BAUQ at 10,70 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "feature"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  Template _ptx_AWEREe2Fx80Lw9BAUQ at 240,10 size 370,550 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _ptymEGEREe2Fx80Lw9BAUQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _ptzNIWEREe2Fx80Lw9BAUQ at 10,90 size 350,430 {
+  		generalStyle GeneralStyling _pt23gGEREe2Fx80Lw9BAUQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ptz0MWEREe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _ptz0M2EREe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  		}
+  		
+  		Col _pt0bQWEREe2Fx80Lw9BAUQ at 10,30 size 320,380 {
+  			wideness Full
+  			layout Layout _pt2QcWEREe2Fx80Lw9BAUQ {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _pt2QcGEREe2Fx80Lw9BAUQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _pt1CUWEREe2Fx80Lw9BAUQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _pt1pYWEREe2Fx80Lw9BAUQ at 10,2 size 7,14 {
+  			}
+  			
+  			Text _xs81AWEREe2Fx80Lw9BAUQ at 10,90 size 200,60 {
+  				content [ StaticContent _xs_4UGEREe2Fx80Lw9BAUQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{feature.title}}"
+  						styling TextStyling _xs_4UWEREe2Fx80Lw9BAUQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _xs-qMGEREe2Fx80Lw9BAUQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _xs-DIWEREe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _xs-DI2EREe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Headline _59Mz8GEREe2Fx80Lw9BAUQ at 10,30 size 300,50 {
+  				size Medium
+  				content [ StaticContent _59PQMGEREe2Fx80Lw9BAUQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Title\n"
+  						styling TextStyling _59PQMWEREe2Fx80Lw9BAUQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _59OCEmEREe2Fx80Lw9BAUQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _59NbAWEREe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _59OCEWEREe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _-CsCoWEREe2Fx80Lw9BAUQ at 10,290 size 200,60 {
+  				label "Back"
+  				styling ButtonStyling _-CxiMGEREe2Fx80Lw9BAUQ {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Yellow
+  					}
+  				options ButtonOptions _-CywUGEREe2Fx80Lw9BAUQ {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _-Cue4GEREe2Fx80Lw9BAUQ {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _-CtQwGEREe2Fx80Lw9BAUQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _-CspsWEREe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _-Csps2EREe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Headline _HSmu0WESEe2Fx80Lw9BAUQ at 10,160 size 300,50 {
+  				size Medium
+  				content [ StaticContent _HSrAQGESEe2Fx80Lw9BAUQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Priority Value\n"
+  						styling TextStyling _HSrAQWESEe2Fx80Lw9BAUQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _HSokAWESEe2Fx80Lw9BAUQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _HSnV4WESEe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _HSokAGESEe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Text _KohhwGESEe2Fx80Lw9BAUQ at 10,220 size 200,60 {
+  				content [ StaticContent _KolzMGESEe2Fx80Lw9BAUQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{feature.priority}}"
+  						styling TextStyling _KomaQGESEe2Fx80Lw9BAUQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _Koiv4GESEe2Fx80Lw9BAUQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _KoiI0WESEe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _KoiI02ESEe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Headline _ust-MWEREe2Fx80Lw9BAUQ at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _usxBgGEREe2Fx80Lw9BAUQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Feature Details\n"
+  				styling TextStyling _us3IIGEREe2Fx80Lw9BAUQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _uswacGEREe2Fx80Lw9BAUQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _usvMUWEREe2Fx80Lw9BAUQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _usvzYWEREe2Fx80Lw9BAUQ at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}
