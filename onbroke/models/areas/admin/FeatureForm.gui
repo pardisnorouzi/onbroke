@@ -4,7 +4,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "FeatureForm"
-  DataContext _OXmmYVuSEe2nXJXMw4vrvg at 10,10 size 180,145 {
+  DataContext _OXmmYVuSEe2nXJXMw4vrvg at 10,10 size 180,445 {
   	dfViewWorkaround true
   	PrimitiveVariable _kTargVuUEe2nXJXMw4vrvg at 20,90 size 140,25 {
   		dataType Text
@@ -20,9 +20,75 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   			id _vnpY0VuUEe2nXJXMw4vrvg
   		}
   	}
+  	
+  	ComplexVariable _bvndYWFFEe21GdTcOmX5Gw at 10,170 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "prioritynew"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _iPBJwWFFEe21GdTcOmX5Gw at 10,23 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _iPYWIWFFEe21GdTcOmX5Gw at 10,50 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _iPgR8WFFEe21GdTcOmX5Gw at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _uDI4EWFFEe21GdTcOmX5Gw  decorate "Ellipse" at (0,0) {
+  			id _uDO-sWFFEe21GdTcOmX5Gw
+  			attributeName current
+  		}
+  		
+  		-ComplexChoiceData-> _kun1MGFEEe21GdTcOmX5Gw  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _1yvBAWFFEe21GdTcOmX5Gw
+  		}
+  	}
+  	
+  	ComplexVariable _uDI4EWFFEe21GdTcOmX5Gw at 10,330 size 160,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		-Display-> _kun1MGFEEe21GdTcOmX5Gw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _2gdpsWFFEe21GdTcOmX5Gw
+  		}
+  	}
+  	
+  	ComplexVariable _FUQ1MWFGEe21GdTcOmX5Gw at 10,390 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "prioritysubmit"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _kun1MGFEEe21GdTcOmX5Gw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _IWrdUWFGEe21GdTcOmX5Gw
+  		}
+  		
+  		-AddComplexToSubmission-> _r0epMVuUEe2nXJXMw4vrvg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _JSrykWFGEe21GdTcOmX5Gw
+  		}
+  	}
   }
   
-  Template _OXnNcVuSEe2nXJXMw4vrvg at 240,10 size 570,530 {
+  Template _OXnNcVuSEe2nXJXMw4vrvg at 240,10 size 570,640 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _OXn0gFuSEe2nXJXMw4vrvg {
@@ -31,7 +97,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _OXn0gluSEe2nXJXMw4vrvg at 10,90 size 550,410 {
+  	Row _OXn0gluSEe2nXJXMw4vrvg at 10,90 size 550,520 {
   		generalStyle GeneralStyling _OXq30VuSEe2nXJXMw4vrvg {
   				tallness Fitting
   				marginBottom None
@@ -44,7 +110,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   		MoveDown _OXobk1uSEe2nXJXMw4vrvg at 2,10 size 14,7 {
   		}
   		
-  		Col _OXpCoVuSEe2nXJXMw4vrvg at 10,30 size 520,360 {
+  		Col _OXpCoVuSEe2nXJXMw4vrvg at 10,30 size 520,470 {
   			wideness Full
   			layout Layout _OXq30FuSEe2nXJXMw4vrvg {
   					size Default
@@ -63,7 +129,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   			MoveRight _OXppsVuSEe2nXJXMw4vrvg at 10,2 size 7,14 {
   			}
   			
-  			Form _r0c0AVuUEe2nXJXMw4vrvg at 10,30 size 500,300 {
+  			Form _r0c0AVuUEe2nXJXMw4vrvg at 10,30 size 500,410 {
   				inline false
   				generalStyle GeneralStyling _r0qPYFuUEe2nXJXMw4vrvg {
   						tallness Fitting
@@ -92,7 +158,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   					validation FormFieldValidation _t10O0FuUEe2nXJXMw4vrvg {
   							min 0
   							max -1
-  							required false
+  							required true
   						}
   					disabled false
   					icon Icon _t1v9YFuUEe2nXJXMw4vrvg {
@@ -112,7 +178,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   					}
   				}
   				
-  				Row _CljYoWBIEe2RjrkbQARhdg at 10,100 size 480,170 {
+  				Row _CljYoWBIEe2RjrkbQARhdg at 10,210 size 480,170 {
   					generalStyle GeneralStyling _Clu-0GBIEe2RjrkbQARhdg {
   							tallness Fitting
   							marginBottom None
@@ -204,7 +270,7 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   								}
   							options ButtonOptions _XELNkFuVEe2nXJXMw4vrvg {
   									isLink false
-  									submitsForm true
+  									submitsForm false
   								}
   							disabled false
   							icon Icon _XD_AUFuVEe2nXJXMw4vrvg {
@@ -223,6 +289,40 @@ GUI _OXlYQVuSEe2nXJXMw4vrvg {
   							MoveDown _XD6u4VuVEe2nXJXMw4vrvg at 2,10 size 14,7 {
   							}
   						}
+  					}
+  				}
+  				
+  				Radio _kun1MGFEEe21GdTcOmX5Gw at 10,100 size 200,100 {
+  					label "Priority"
+  					styling SelectFormFieldStyling _kvCr8GFEEe21GdTcOmX5Gw {
+  							inline false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _ku-agGFEEe21GdTcOmX5Gw {
+  							readonly false
+  						}
+  					validation FormFieldValidation _ku6wIGFEEe21GdTcOmX5Gw {
+  							min 0
+  							max -1
+  							required true
+  						}
+  					disabled false
+  					icon Icon _ku0pgGFEEe21GdTcOmX5Gw {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _kuvJ8GFEEe21GdTcOmX5Gw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _kut70WFEEe21GdTcOmX5Gw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _kuui4WFEEe21GdTcOmX5Gw at 2,10 size 14,7 {
   					}
   				}
   			}

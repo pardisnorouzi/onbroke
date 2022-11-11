@@ -664,7 +664,7 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _gA6fEVuVEe2nXJXMw4vrvg at 309,667 size 120,65 {
+  ProcessSIB _gA6fEVuVEe2nXJXMw4vrvg at 309,700 size 120,65 {
   	libraryComponentUID "_1wwsIVuUEe2nXJXMw4vrvg"
   	label "ShowCreateOfferFeature"
   	ignoredBranch [  ]
@@ -672,25 +672,12 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		id _gBJvoVuVEe2nXJXMw4vrvg
   		concurrent true
   	}
-  	
-  	-BranchConnector-> _gBSSgVuVEe2nXJXMw4vrvg via (306,782)  {
-  		id _gBTgoVuVEe2nXJXMw4vrvg
-  		concurrent true
-  	}
   }
   
-  Branch _gBIhgVuVEe2nXJXMw4vrvg at 330,760 size 120,25 {
+  Branch _gBIhgVuVEe2nXJXMw4vrvg at 279,858 size 120,25 {
   	name "success"
   	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (466,774) (466,172) decorate "" at (0,0) {
   		id _rrdaoVuVEe2nXJXMw4vrvg
-  		concurrent true
-  	}
-  }
-  
-  Branch _gBSSgVuVEe2nXJXMw4vrvg at 309,820 size 120,25 {
-  	name "cancel"
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (480,832) (480,480) decorate "" at (0,0) {
-  		id _hkOr8VuVEe2nXJXMw4vrvg
   		concurrent true
   	}
   }
@@ -703,25 +690,12 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		id _D2n-IVuWEe2nXJXMw4vrvg
   		concurrent true
   	}
-  	
-  	-BranchConnector-> _D2y9QVuWEe2nXJXMw4vrvg via (488,780)  {
-  		id _D20LYFuWEe2nXJXMw4vrvg
-  		concurrent true
-  	}
   }
   
   Branch _D2mwAVuWEe2nXJXMw4vrvg at 510,760 size 120,25 {
   	name "success"
   	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (649,772) (648,172) decorate "" at (0,0) {
   		id _Nmq74VuWEe2nXJXMw4vrvg
-  		concurrent true
-  	}
-  }
-  
-  Branch _D2y9QVuWEe2nXJXMw4vrvg at 500,820 size 120,25 {
-  	name "cancel"
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (657,833) (657,480) decorate "" at (0,0) {
-  		id _Kb0wgFuWEe2nXJXMw4vrvg
   		concurrent true
   	}
   }
