@@ -4,9 +4,9 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "AdminOfferTable"
-  DataContext _G6Q8UVLlEe2djpkPxa2Z3Q at 10,10 size 221,501 {
+  DataContext _G6Q8UVLlEe2djpkPxa2Z3Q at 10,10 size 221,571 {
   	dfViewWorkaround true
-  	ComplexVariable _Mgng0VLlEe2djpkPxa2Z3Q at 10,80 size 201,25 {
+  	ComplexVariable _Mgng0VLlEe2djpkPxa2Z3Q at 10,120 size 201,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
@@ -34,7 +34,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	ComplexVariable _QYB3QVLlEe2djpkPxa2Z3Q at 10,340 size 201,51 {
+  	ComplexVariable _QYB3QVLlEe2djpkPxa2Z3Q at 10,210 size 201,51 {
   		expanded false
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
@@ -65,9 +65,14 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   		-AddComplexToSubmission-> _K80y_VLlEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _p79kgVLlEe2djpkPxa2Z3Q
   		}
+  		
+  		-ComplexAttributeConnector-> _5YOVMWHuEe2d5JgBTuolSQ  decorate "Ellipse" at (0,0) {
+  			id _5YTNsWHuEe2d5JgBTuolSQ
+  			associationName "decision"
+  		}
   	}
   	
-  	ComplexVariable _jeaSQVLlEe2djpkPxa2Z3Q at 10,420 size 201,51 {
+  	ComplexVariable _jeaSQVLlEe2djpkPxa2Z3Q at 10,490 size 201,51 {
   		expanded false
   		isLive false
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -83,9 +88,29 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   			}
   		}
   	}
+  	
+  	ComplexVariable _5YOVMWHuEe2d5JgBTuolSQ at 10,360 size 201,51 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_BtX2cVGBEe2J0bu3ffrh5w"
+  		isInput false
+  		name "decision"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _5YmvsWHuEe2d5JgBTuolSQ at 10,23 size 181,25 {
+  			libraryComponentUID "_FOudUVGBEe2J0bu3ffrh5w"
+  			isLive false
+  			-ComplexRead-> _fNeVAWHtEe2d5JgBTuolSQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _8Q810WHuEe2d5JgBTuolSQ
+  			}
+  		}
+  		-TableColumnLoad-> _VrzxgWHtEe2d5JgBTuolSQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _9NLNgWHuEe2d5JgBTuolSQ
+  		}
+  	}
   }
   
-  Template _G6RjYVLlEe2djpkPxa2Z3Q at 300,10 size 1180,350 {
+  Template _G6RjYVLlEe2djpkPxa2Z3Q at 300,10 size 1360,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _G6SKcFLlEe2djpkPxa2Z3Q {
@@ -125,7 +150,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	Table _K8y9oVLlEe2djpkPxa2Z3Q at 10,100 size 1160,220 {
+  	Table _K8y9oVLlEe2djpkPxa2Z3Q at 10,100 size 1340,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -198,7 +223,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		TableEntry _K80Lw1LlEe2djpkPxa2Z3Q at 470,30 size 670,170 {
+  		TableEntry _K80Lw1LlEe2djpkPxa2Z3Q at 650,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -369,6 +394,46 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   				}
   				
   				MoveDown _exvHxVLlEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _VrzxgWHtEe2d5JgBTuolSQ at 470,30 size 170,150 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Decision"
+  			sortable false
+  			generalStyle GeneralStyling _VsGscGHtEe2d5JgBTuolSQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _Vr_XsWHtEe2d5JgBTuolSQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _Vr_-wWHtEe2d5JgBTuolSQ at 10,2 size 7,14 {
+  			}
+  			
+  			GUISIB _fNWZMWHtEe2d5JgBTuolSQ at 10,30 size 150,90 {
+  				libraryComponentUID "_bvuygVLpEe2djpkPxa2Z3Q"
+  				label "DecisionStateBadge"
+  				generalStyle GeneralStyling _fNoGAGHtEe2d5JgBTuolSQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				ComplexInputPort _fNeVAWHtEe2d5JgBTuolSQ at 5,67 size 90,18 {
+  					libraryComponentUID "_lmR-0VFSEe2J0bu3ffrh5w"
+  					isList false
+  					name "decisionState"
+  				}
+  				
+  				MoveUp _fNm34WHtEe2d5JgBTuolSQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _fNne8WHtEe2d5JgBTuolSQ at 2,10 size 14,7 {
   				}
   			}
   		}

@@ -113,7 +113,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   	}
   }
   
-  Template _CPT_sWBEEe2RjrkbQARhdg at 240,10 size 320,670 {
+  Template _CPT_sWBEEe2RjrkbQARhdg at 240,10 size 570,820 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _CPV04GBEEe2RjrkbQARhdg {
@@ -122,7 +122,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _CPWb8WBEEe2RjrkbQARhdg at 10,90 size 270,550 {
+  	Row _CPWb8WBEEe2RjrkbQARhdg at 10,200 size 550,590 {
   		generalStyle GeneralStyling _CPlFcGBEEe2RjrkbQARhdg {
   				tallness Fitting
   				marginBottom None
@@ -135,7 +135,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   		MoveDown _CPXqEWBEEe2RjrkbQARhdg at 2,10 size 14,7 {
   		}
   		
-  		Col _CPY4MWBEEe2RjrkbQARhdg at 10,30 size 240,500 {
+  		Col _CPY4MWBEEe2RjrkbQARhdg at 10,30 size 520,540 {
   			wideness Full
   			layout Layout _CPkeYGBEEe2RjrkbQARhdg {
   					size Default
@@ -154,7 +154,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   			MoveRight _CPZfQ2BEEe2RjrkbQARhdg at 10,2 size 7,14 {
   			}
   			
-  			Form _FLvUkWBEEe2RjrkbQARhdg at 10,30 size 220,440 {
+  			Form _FLvUkWBEEe2RjrkbQARhdg at 10,30 size 500,480 {
   				inline false
   				generalStyle GeneralStyling _FLv7u2BEEe2RjrkbQARhdg {
   						tallness Fitting
@@ -166,66 +166,6 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   				}
   				
   				MoveDown _FLv7wGBEEe2RjrkbQARhdg at 2,10 size 14,7 {
-  				}
-  				
-  				Button _FLv7w2BEEe2RjrkbQARhdg at 10,280 size 200,60 {
-  					label "Submit"
-  					styling ButtonStyling _FLv7ymBEEe2RjrkbQARhdg {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Green
-  						}
-  					options ButtonOptions _FLv7y2BEEe2RjrkbQARhdg {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon _FLv7yWBEEe2RjrkbQARhdg {
-  							postIcon None
-  							preIcon None
-  						}
-  					generalStyle GeneralStyling _FLv7yGBEEe2RjrkbQARhdg {
-  							tallness Fitting
-  							marginBottom None
-  							attributes [  ]
-  							marginTop None
-  						}
-  					MoveUp _FLv7zWBEEe2RjrkbQARhdg at 2,2 size 14,7 {
-  					}
-  					
-  					MoveDown _FLv70GBEEe2RjrkbQARhdg at 2,10 size 14,7 {
-  					}
-  				}
-  				
-  				Button _FLv71GBEEe2RjrkbQARhdg at 10,350 size 200,60 {
-  					label "Cancel"
-  					styling ButtonStyling _FLv722BEEe2RjrkbQARhdg {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Yellow
-  						}
-  					options ButtonOptions _FLv73GBEEe2RjrkbQARhdg {
-  							isLink false
-  							submitsForm false
-  						}
-  					disabled false
-  					icon Icon _FLv72mBEEe2RjrkbQARhdg {
-  							postIcon None
-  							preIcon None
-  						}
-  					generalStyle GeneralStyling _FLv72WBEEe2RjrkbQARhdg {
-  							tallness Fitting
-  							marginBottom None
-  							attributes [  ]
-  							marginTop None
-  						}
-  					MoveUp _FLv73mBEEe2RjrkbQARhdg at 2,2 size 14,7 {
-  					}
-  					
-  					MoveDown _FLv74WBEEe2RjrkbQARhdg at 2,10 size 14,7 {
-  					}
   				}
   				
   				Field _FL3QYGBEEe2RjrkbQARhdg at 10,30 size 200,60 {
@@ -333,38 +273,186 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   					MoveDown _FL7h32BEEe2RjrkbQARhdg at 2,10 size 14,7 {
   					}
   				}
+  				
+  				Row _gtqOAGHwEe2d5JgBTuolSQ at 10,280 size 480,170 {
+  					generalStyle GeneralStyling _guCBcGHwEe2d5JgBTuolSQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _gtq1EWHwEe2d5JgBTuolSQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _gtrcIWHwEe2d5JgBTuolSQ at 2,10 size 14,7 {
+  					}
+  					
+  					Col _gtsqQWHwEe2d5JgBTuolSQ at 10,30 size 220,120 {
+  						wideness Full
+  						layout Layout _gt4QcGHwEe2d5JgBTuolSQ {
+  								size Default
+  								offset None
+  								alignment Left
+  							}
+  						generalStyle GeneralStyling _gtufcmHwEe2d5JgBTuolSQ {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _gtt4YWHwEe2d5JgBTuolSQ at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _gtufcWHwEe2d5JgBTuolSQ at 10,2 size 7,14 {
+  						}
+  						
+  						Button _FLv7w2BEEe2RjrkbQARhdg at 10,30 size 200,60 {
+  							label "Submit"
+  							styling ButtonStyling _FLv7ymBEEe2RjrkbQARhdg {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Green
+  								}
+  							options ButtonOptions _FLv7y2BEEe2RjrkbQARhdg {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon _FLv7yWBEEe2RjrkbQARhdg {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _FLv7yGBEEe2RjrkbQARhdg {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _FLv7zWBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _FLv70GBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  							}
+  						}
+  					}
+  					
+  					Col _hruYwWHwEe2d5JgBTuolSQ at 240,30 size 220,120 {
+  						wideness Full
+  						layout Layout _hsJPgGHwEe2d5JgBTuolSQ {
+  								size Default
+  								offset None
+  								alignment Right
+  							}
+  						generalStyle GeneralStyling _hru_0mHwEe2d5JgBTuolSQ {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _hruYw2HwEe2d5JgBTuolSQ at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _hru_0WHwEe2d5JgBTuolSQ at 10,2 size 7,14 {
+  						}
+  						
+  						Button _FLv71GBEEe2RjrkbQARhdg at 10,30 size 200,60 {
+  							label "Cancel"
+  							styling ButtonStyling _FLv722BEEe2RjrkbQARhdg {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Yellow
+  								}
+  							options ButtonOptions _FLv73GBEEe2RjrkbQARhdg {
+  									isLink false
+  									submitsForm false
+  								}
+  							disabled false
+  							icon Icon _FLv72mBEEe2RjrkbQARhdg {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _FLv72WBEEe2RjrkbQARhdg {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _FLv73mBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _FLv74WBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  							}
+  						}
+  					}
+  				}
   			}
   		}
   	}
   	
-  	Headline _HPdf0WBEEe2RjrkbQARhdg at 10,30 size 300,50 {
-  		size Big
-  		content [ StaticContent _HPpGAGBEEe2RjrkbQARhdg {
-  				renderMarkdown false
-  				maxChars 0
-  				html false
-  				rawContent "Edit User\n"
-  				styling TextStyling _HPriQGBEEe2RjrkbQARhdg {
-  						small false
-  						highlight false
-  						deleted false
-  						underline false
-  						bold false
-  						alignment Left
-  						italic false
-  						color Default
-  					}
-  			} ]
-  		generalStyle GeneralStyling _HPhxQGBEEe2RjrkbQARhdg {
+  	Row _nSGLYWHwEe2d5JgBTuolSQ at 10,30 size 350,160 {
+  		generalStyle GeneralStyling _nSXRIGHwEe2d5JgBTuolSQ {
   				tallness Fitting
   				marginBottom None
   				attributes [  ]
   				marginTop None
   			}
-  		MoveUp _HPet8WBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  		MoveUp _nSGLY2HwEe2d5JgBTuolSQ at 2,2 size 14,7 {
   		}
   		
-  		MoveDown _HPgjIWBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  		MoveDown _nSGLZWHwEe2d5JgBTuolSQ at 2,10 size 14,7 {
+  		}
+  		
+  		Col _nSGycWHwEe2d5JgBTuolSQ at 10,30 size 320,110 {
+  			wideness Full
+  			layout Layout _nSMSAGHwEe2d5JgBTuolSQ {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _nSHZgGHwEe2d5JgBTuolSQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _nSGyc2HwEe2d5JgBTuolSQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _nSGydWHwEe2d5JgBTuolSQ at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _HPdf0WBEEe2RjrkbQARhdg at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _HPpGAGBEEe2RjrkbQARhdg {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Edit User"
+  						styling TextStyling _HPriQGBEEe2RjrkbQARhdg {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _HPhxQGBEEe2RjrkbQARhdg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _HPet8WBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _HPgjIWBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  				}
+  			}
   		}
   	}
   }

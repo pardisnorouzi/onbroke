@@ -4,9 +4,9 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "AdminBiddingTable"
-  DataContext _QIKZ0VLmEe2djpkPxa2Z3Q at 19,10 size 221,601 {
+  DataContext _QIKZ0VLmEe2djpkPxa2Z3Q at 19,10 size 221,661 {
   	dfViewWorkaround true
-  	ComplexVariable _Z9XkY1LmEe2djpkPxa2Z3Q at 10,90 size 201,25 {
+  	ComplexVariable _Z9XkY1LmEe2djpkPxa2Z3Q at 10,30 size 201,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -34,7 +34,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	ComplexVariable _0CnO8VLmEe2djpkPxa2Z3Q at 10,400 size 201,25 {
+  	ComplexVariable _0CnO8VLmEe2djpkPxa2Z3Q at 21,90 size 201,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -63,9 +63,14 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   		-AddComplexToSubmission-> _uDygGlLmEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _FWxeYFLnEe2djpkPxa2Z3Q
   		}
+  		
+  		-ComplexAttributeConnector-> _dXvQgWHvEe2d5JgBTuolSQ  decorate "Ellipse" at (0,0) {
+  			id _dX-hEWHvEe2d5JgBTuolSQ
+  			associationName "decision"
+  		}
   	}
   	
-  	ComplexVariable _2FTfcVLmEe2djpkPxa2Z3Q at 10,450 size 201,51 {
+  	ComplexVariable _2FTfcVLmEe2djpkPxa2Z3Q at 10,510 size 201,51 {
   		expanded false
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
@@ -82,7 +87,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	ComplexVariable _62Z28VLmEe2djpkPxa2Z3Q at 10,520 size 201,51 {
+  	ComplexVariable _62Z28VLmEe2djpkPxa2Z3Q at 1,580 size 201,51 {
   		expanded false
   		isLive false
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
@@ -98,9 +103,29 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   			}
   		}
   	}
+  	
+  	ComplexVariable _dXvQgWHvEe2d5JgBTuolSQ at 10,390 size 201,51 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_BtX2cVGBEe2J0bu3ffrh5w"
+  		isInput false
+  		name "decision"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _dYkW8WHvEe2d5JgBTuolSQ at 10,23 size 181,25 {
+  			libraryComponentUID "_FOudUVGBEe2J0bu3ffrh5w"
+  			isLive false
+  			-ComplexRead-> _RiBmwWHvEe2d5JgBTuolSQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _fGWHYWHvEe2d5JgBTuolSQ
+  			}
+  		}
+  		-TableColumnLoad-> _KtL14WHvEe2d5JgBTuolSQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _g-tXMWHvEe2d5JgBTuolSQ
+  		}
+  	}
   }
   
-  Template _QILA4VLmEe2djpkPxa2Z3Q at 298,10 size 1180,350 {
+  Template _QILA4VLmEe2djpkPxa2Z3Q at 298,10 size 1360,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _QILn8FLmEe2djpkPxa2Z3Q {
@@ -140,7 +165,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	Table _UTSWcVLmEe2djpkPxa2Z3Q at 10,100 size 1160,220 {
+  	Table _UTSWcVLmEe2djpkPxa2Z3Q at 10,100 size 1340,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -213,7 +238,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		TableEntry _UTULwlLmEe2djpkPxa2Z3Q at 470,30 size 670,170 {
+  		TableEntry _UTULwlLmEe2djpkPxa2Z3Q at 650,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -384,6 +409,46 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   				}
   				
   				MoveDown _UTXO9FLmEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _KtL14WHvEe2d5JgBTuolSQ at 470,30 size 170,150 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Decision"
+  			sortable false
+  			generalStyle GeneralStyling _Kt5AgGHvEe2d5JgBTuolSQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _KtMc8WHvEe2d5JgBTuolSQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _KtNEAWHvEe2d5JgBTuolSQ at 10,2 size 7,14 {
+  			}
+  			
+  			GUISIB _Rhk60GHvEe2d5JgBTuolSQ at 10,30 size 150,90 {
+  				libraryComponentUID "_bvuygVLpEe2djpkPxa2Z3Q"
+  				label "DecisionStateBadge"
+  				generalStyle GeneralStyling _RiaoUGHvEe2d5JgBTuolSQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				ComplexInputPort _RiBmwWHvEe2d5JgBTuolSQ at 5,67 size 90,18 {
+  					libraryComponentUID "_lmR-0VFSEe2J0bu3ffrh5w"
+  					isList false
+  					name "decisionState"
+  				}
+  				
+  				MoveUp _RiVv0WHvEe2d5JgBTuolSQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _RiWW4WHvEe2d5JgBTuolSQ at 2,10 size 14,7 {
   				}
   			}
   		}
