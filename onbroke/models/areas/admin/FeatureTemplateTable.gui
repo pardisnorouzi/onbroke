@@ -243,7 +243,7 @@ GUI _a-hbAVLIEe2djpkPxa2Z3Q {
   					label "Details"
   					styling ButtonStyling _Og9BUGEREe2Fx80Lw9BAUQ {
   							fullWidth false
-  							size Default
+  							size Small
   							disabled false
   							color Default
   						}

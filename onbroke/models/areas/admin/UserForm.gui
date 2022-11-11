@@ -173,7 +173,7 @@ GUI _BDkd8F3WEe2t19MJLPzxmg {
   					validation FormFieldValidation _cW7hcF3WEe2t19MJLPzxmg {
   							min 0
   							max -1
-  							required false
+  							required true
   						}
   					disabled false
   					icon Icon _cW1a0F3WEe2t19MJLPzxmg {
@@ -208,7 +208,7 @@ GUI _BDkd8F3WEe2t19MJLPzxmg {
   					validation FormFieldValidation _cr66AF3WEe2t19MJLPzxmg {
   							min 0
   							max -1
-  							required false
+  							required true
   						}
   					disabled false
   					icon Icon _crnYAF3WEe2t19MJLPzxmg {
@@ -242,7 +242,7 @@ GUI _BDkd8F3WEe2t19MJLPzxmg {
   					validation FormFieldValidation _1e9jkF3bEe2Be6DvFR1aQQ {
   							min 0
   							max -1
-  							required false
+  							required true
   						}
   					disabled false
   					icon Icon _1e1nwF3bEe2Be6DvFR1aQQ {
@@ -354,7 +354,7 @@ GUI _BDkd8F3WEe2t19MJLPzxmg {
   								}
   							options ButtonOptions _YHV7kF3WEe2t19MJLPzxmg {
   									isLink false
-  									submitsForm true
+  									submitsForm false
   								}
   							disabled false
   							icon Icon _YHGD8F3WEe2t19MJLPzxmg {
